@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeHotel - Login</title>
+    <link rel="stylesheet" href="assets/css/shared/auth.css">
+    <link rel="stylesheet" href="assets/css/login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>CodeHotel</h1>
+        <form id="loginForm" class="login-form" method="post">
+            <div class="form-group">
+                <label for="username">Usúario</label>
+                <input type="text" id="username" requerid="name">
+            </div>
+
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password"  id="senha" name="senha" required="required">
+            </div>
+            
+            <div class="form-group remember">
+                <input type="checkbox" name="lembrar" id="Lembrar">
+                <label for="lembrar">lembrar-me</label>
+            </div>
+
+            <button type="submit" class="btn">Entrar</button>
+            <div class="forgot">
+                <a href="esqueceu-senha.html">Esqueceu a senha?</a>
+            </div>
+
+        </form> 
+    </div>
+
+    <script src="assets/js/login.js"></script>
+    
+</body>
+</html>
